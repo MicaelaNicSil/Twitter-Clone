@@ -1,0 +1,70 @@
+* {
+    list-style: none;
+}
+
+:root {
+    --color-l-blue1: #b2acd4;
+    --color-rolar: #69C6AF;
+    --color-rolar2: #5b8396;
+    --color-green2:#88DEB0 ;
+    --color-terciary:#f5f1e1;
+    --colorc: #4EADAF;
+    --color-red: #A85A5A;
+    --color-white: #ffffff;
+    --color-black: #000;
+    --color-blue: #8176ac;
+    --color-grey-1: #7b8896;
+    --color-grey-2: #b2becd;
+    --color-grey-3: #6c7983;
+    --color-grey-4: #454e56;
+    --color-grey-5: #2a2e35;
+    --color-grey6: #12181b;
+    --color-primary-shadow: rgb(255, 13, 13);
+    --secondary-shadow: orange;
+    
+}
+
+body {
+    background-color: var(--color-l-blue1)
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: var(--color-blue);
+}
+
+.logginContainer{
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid var(--color-rolar);
+    background-color: var(--color-rolar2);
+    text-align: center;
+    box-shadow: 0 1px 4px var(--color-red);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: 1px solid var(--color-green2);
+    background-color: var(--color-terciary);
+
+}
+
+input[type="submit"] {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
